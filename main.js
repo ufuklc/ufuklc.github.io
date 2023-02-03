@@ -37,7 +37,7 @@ const clearTasks = () => {
 const toggleComplete = (event) => {
     const element = event.target.parentElement;
     const task = JSON.parse(localStorage.getItem(element.id));
-    console.log(task)
+
     if (task.isCompleted === false) {
         element.classList.add("completed")
         event.target.nextSibling.nextSibling.classList.add("unvisible");
