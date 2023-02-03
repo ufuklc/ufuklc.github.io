@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1{
+    margin-bottom: 8px;
+}
+
+button,
+.todoInput{
+    padding: 0.5rem;
+    margin: 5px;
+}
+
+.todoInput{
+    width: 500px;
+    border: 0.5px black solid;
+
+}
+
+.todoItem button{
+    margin-right: 8px;
+}
+
+.completed .todoText{
+    opacity: 0.6;
+    text-decoration: line-through;
+    
+}
+
+
+.todos{
+    list-style: none;
+}
+
+.date {
+    font-size: 10px;
+    color: red;
+}
+
+.todoItem{
+    padding-top: 1rem;
+}
+
+.unvisible{
+    display: none;
+}
+
+.editInput {
+    border: 1px black solid;
+    height: 20px;
+    width: 250px;
+
+    font-size: 14px ;
+}   
